@@ -3,7 +3,7 @@ body {
   font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Set minimum height to full viewport height */
+  min-height: 100vh;
 }
 
 .navbar {
@@ -82,20 +82,25 @@ body {
 
 @media only screen and (max-width: 768px) {
   .navbar-links {
-      display: none;
+    display: none;
   }
 
   .mobile-menu-btn {
-      display: block;
+    display: block;
   }
 
   .mobile-menu {
-      display: block;
+    display: block;
   }
 }
 
 .content {
-  flex: 1; 
+  flex: 1;
+}
+
+.page-section {
+  margin: 20px; 
+  padding: 15px; 
 }
 
 .footer {
